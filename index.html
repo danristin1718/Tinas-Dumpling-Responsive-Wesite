@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dumplings Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!--header-->
+
+    <header>
+      <a href="#" class="logo">
+        <img src="image/logo.png" />
+      </a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#dishes">dishes</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#review">review</a>
+        <a href="#order">order</a>
+      </nav>
+
+      <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+      </div>
+    </header>
+
+    <!--search form-->
+
+    <form action="" id="search-form">
+      <input type="search" placeholder="search here..." id="search-box" />
+      <label for="search-box" class="fa fa-search"></label>
+      <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <!-- home section -->
+
+    <section class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper wrapper">
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our special dish</span>
+              <h3>kimchi mandu</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                exercitationem perferendis at!
+              </p>
+              <a href="#" class="btn">order now</a>
+            </div>
+            <div class="image">
+              <img src="image/home-img-1.png" alt="" />
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our special dish</span>
+              <h3>traditional chinese dumplings</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                exercitationem perferendis at!
+              </p>
+              <a href="#" class="btn">order now</a>
+            </div>
+            <div class="image">
+              <img src="image/home-img-2.png" alt="" />
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our special dish</span>
+              <h3>gyoza dumplings</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                exercitationem perferendis at!
+              </p>
+              <a href="#" class="btn">order now</a>
+            </div>
+            <div class="image">
+              <img src="image/home-img-3.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- dishes section -->
+
+    <section class="dishes" id="dishes">
+      <h3 class="sub-heading">our dishes</h3>
+      <h1 class="heading">popular dishes</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="image/dish1.png" alt="" />
+          <h3>
+            Spicy Steamed <br />
+            vegan dumpling
+          </h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>Rp 120.000</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="image/dish2.png" alt="" />
+          <h3>mushroom dumplings <br />with chili oil</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>Rp 120.000</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="image/dish3.png" alt="" />
+          <h3>fall dumplings with <br />butternut squash sauce</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>Rp 120.000</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section -->
+
+    <section class="about" id="about">
+      <h3 class="sub-heading">about us</h3>
+      <h1 class="heading">why choose us?</h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="image/about.png" />
+        </div>
+
+        <div class="content">
+          <h3>best macaron in the country</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+            possimus sapiente quam quidem ab mollitia harum porro, corporis
+            eveniet distinctio? Consectetur quis quae deleniti debitis natus
+            doloremque iusto architecto vitae autem a, quas, doloribus nesciunt.
+          </p>
+
+          <div class="icons-container">
+            <div class="icons">
+              <i class="fas fa-shipping-fast"></i>
+              <span>free delivery</span>
+            </div>
+
+            <div class="icons">
+              <i class="fas fa-dollar-sign"></i>
+              <span>easy payments</span>
+            </div>
+
+            <div class="icons">
+              <i class="fas fa-headset"></i>
+              <span>24/7 service</span>
+            </div>
+          </div>
+          <a href="#" class="btn">learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- menu section -->
+
+    <section class="menu" id="menu">
+      <h3 class="sub-heading">our menu</h3>
+      <h1 class="heading">today's speciality</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="image/menu1.png" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>spicy chicken <br />filling dumplings</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Cupiditate, tempore.
+            </p>
+            <span class="price">rp 100.000</span>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="image/menu2.png" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>chicken and <br />shrimp dumplings</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Cupiditate, tempore.
+            </p>
+            <span class="price">rp 100.000</span>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="image/menu3.png" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>gluten-free <br />veggie dumplings</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Cupiditate, tempore.
+            </p>
+            <span class="price">rp 100.000</span>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="image/menu4.png" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>prawn dumplings <br />in red oil</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Cupiditate, tempore.
+            </p>
+            <span class="price">rp 100.000</span>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="image/menu5.png" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>spicy fish <br />dumplings</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Cupiditate, tempore.
+            </p>
+            <span class="price">rp 100.000</span>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="image/menu6.png" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>chinese pork <br />chive dumpling</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Cupiditate, tempore.
+            </p>
+            <span class="price">rp 100.000</span>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section -->
+
+    <section class="review" id="review">
+      <h3 class="sub-heading">customer's review</h3>
+      <h1 class="heading">what they say</h1>
+
+      <div class="review-slider">
+        <div class="wrapper">
+          <div class="slide">
+            <div class="user">
+              <img src="image/pic1.JPG" alt="" />
+              <div class="user-info">
+                <h3>john doe</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
+              unde, aut ab harum non voluptas accusamus architecto nulla
+              temporibus adipisci repellat voluptate, dolorum suscipit
+              doloremque, neque fuga numquam aliquam pariatur?
+            </p>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="user">
+            <img src="image/pic4.JPG" alt="" />
+            <div class="user-info">
+              <h3>chirtine barkley</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
+            unde, aut ab harum non voluptas accusamus architecto nulla
+            temporibus adipisci repellat voluptate, dolorum suscipit doloremque,
+            neque fuga numquam aliquam pariatur?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- order section -->
+
+    <section class="order" id="order">
+      <h3 class="sub-heading">order now</h3>
+      <h1 class="heading">sweet and tasty</h1>
+
+      <form action="">
+        <div class="inputBox">
+          <div class="input">
+            <span>your name</span>
+            <input type="text" placeholder="enter your name" />
+          </div>
+          <div class="input">
+            <span>your number</span>
+            <input type="number" placeholder="enter your number" />
+          </div>
+          <div class="input">
+            <span>your order</span>
+            <input type="text" placeholder="enter food name" />
+          </div>
+          <div class="input">
+            <span>additional food</span>
+            <input type="text" placeholder="extra with" />
+          </div>
+          <div class="input">
+            <span>how much</span>
+            <input type="number" placeholder="how many orders" />
+          </div>
+          <div class="input">
+            <span>date and time</span>
+            <input type="datetime-local" />
+          </div>
+          <div class="input">
+            <span>your address</span>
+            <textarea
+              name=""
+              placeholder="enter your address"
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <div class="input">
+            <span>add order note</span>
+            <textarea
+              name=""
+              placeholder="add your note"
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+        </div>
+
+        <input type="submit" value="order now" class="btn" />
+      </form>
+    </section>
+
+    <!-- footer section -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>locations</h3>
+          <a href="#">jakarta</a>
+          <a href="#">depok</a>
+          <a href="#">surabaya</a>
+          <a href="#">bali</a>
+          <a href="#">makasar</a>
+        </div>
+
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#">home</a>
+          <a href="#">dishes</a>
+          <a href="#">about</a>
+          <a href="#">review</a>
+          <a href="#">order</a>
+        </div>
+
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="#">+62-890-4579-890</a>
+          <a href="#">+62-890-4579-899</a>
+          <a href="#">dchristin30@gmail.com</a>
+          <a href="#">tina1718@gmail.com</a>
+          <a href="#">depok, indonesia -16431</a>
+        </div>
+
+        <div class="box">
+          <h3>follow us</h3>
+          <a href="#">facebook</a>
+          <a href="#">twitter</a>
+          <a href="#">instagram</a>
+          <a href="#">linkedin</a>
+        </div>
+      </div>
+
+      <div class="credit">copyright @ 2023 <span>danristin</span></div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="Script.js"></script>
+  </body>
+</html>
